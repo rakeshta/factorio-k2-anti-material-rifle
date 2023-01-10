@@ -1,0 +1,23 @@
+{
+  "name": "k2-anti-material-rifle",
+  "version": "1.0.0",
+  "title": "k2 Anti-material Rifle",
+  "description": "Anti-materiel Rifle from Krastorio 2.",
+  "author": "RaptorTWiked",
+  "factorio_version": "1.1",
+  "dependencies": [
+    "base >= 1.1",
+    "! Krastorio2 >= 0.0.1",
+    "! Krastorio2Assets >= 0.0.1"
+  ],
+  "package": {
+    "ignore": [
+      ".vscode",
+      "assets",
+      "scripts",
+      ".gitignore",
+      "package-lock.json",
+      "package.json"
+    ]
+  }
+}
