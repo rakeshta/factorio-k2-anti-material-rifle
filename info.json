@@ -2,7 +2,7 @@
   "name": "k2-anti-material-rifle",
   "version": "1.0.0",
   "title": "k2 Anti-material Rifle",
-  "description": "Anti-materiel Rifle from Krastorio 2.",
+  "description": "Anti-materiel Rifle from Krastorio 2. A slow-firing, high-damage rifle that has an extended range.",
   "author": "RaptorTWiked",
   "factorio_version": "1.1",
   "dependencies": [

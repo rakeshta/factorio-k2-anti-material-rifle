@@ -26,6 +26,7 @@ fi
 # Copy files to zip dir
 cp -r \
   ./graphics \
+  ./lib \
   ./locale \
   ./prototypes \
   ./sounds \

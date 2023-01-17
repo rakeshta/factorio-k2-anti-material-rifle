@@ -2,6 +2,8 @@
 
 Add the Anti-materiel Rifle from Krastorio 2 to your game without adding any of the other features of the awesome Krastorio 2.
 
+Exterminate biters from a greater distance using this slow-firing, high-damage rifle.
+
 ## Entities in this mod
 
 - **Anti-material Rifle**
