@@ -10,7 +10,20 @@ import ConfigParser from 'configparser';
 
 const K2_LANG_FILE = 'Krastorio2.cfg';
 const LANG_FILE = 'lang.cfg';
-const LANG_KEYS = [];
+const LANG_KEYS = [
+  'anti-material-rifle-ammo',
+  'anti-material-rifle-magazine',
+  'armor-piercing-anti-material-rifle-magazine',
+  'uranium-anti-material-rifle-magazine',
+  'anti-material-rifle-ammo-1',
+  'anti-material-rifle-ammo-2',
+  'anti-material-rifle-ammo-3',
+  'anti-material-rifle-ammo-damage-bonus',
+  'anti-material-rifle',
+  'radioactive',
+  'explosion-hit-p',
+  'explosion-hit-u',
+];
 
 async function main(): Promise<void> {
   // check if the source folder was passed as an argument
