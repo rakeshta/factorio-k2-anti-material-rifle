@@ -12,9 +12,9 @@ data:extend({
     energy_required = 10,
     enabled = false,
     ingredients = {
-      { "submachine-gun", 2 },
-      { "steel-plate", 4 },
+      {type = "item", name= "submachine-gun",amount = 2 },
+      {type = "item", name= "steel-plate",amount = 4 },
     },
-    result = "anti-material-rifle",
+    results = {{type = "item", name= "anti-material-rifle",amount = 1}},
   },
 })

@@ -12,11 +12,11 @@ data:extend({
     energy_required = 2,
     enabled = false,
     ingredients = {
-      { "coal", 3 },
-      { "iron-plate", 2 },
-      { "copper-plate", 1 },
+      { type = "item", name = "coal",         amount = 3 },
+      { type = "item", name = "iron-plate",   amount = 2 },
+      { type = "item", name = "copper-plate", amount = 1 },
     },
-    result = "anti-material-rifle-magazine",
+    results = {{ type = "item", name = "anti-material-rifle-magazine", amount = 1 }}
   },
 
   {
@@ -25,10 +25,10 @@ data:extend({
     energy_required = 3,
     enabled = false,
     ingredients = {
-      { "anti-material-rifle-magazine", 1 },
-      { "steel-plate", 3 },
+      {type = "item", name = "anti-material-rifle-magazine", amount =1 },
+      {type = "item", name = "steel-plate",                  amount =3 },
     },
-    result = "armor-piercing-anti-material-rifle-magazine",
+    results = {{type = "item", name ="armor-piercing-anti-material-rifle-magazine",amount =1}},
   },
 
   {
@@ -37,9 +37,9 @@ data:extend({
     energy_required = 4,
     enabled = false,
     ingredients = {
-      { "anti-material-rifle-magazine", 1 },
-      { "uranium-238", 3 },
+      { type = "item", name ="anti-material-rifle-magazine",amount = 1 },
+      { type = "item", name ="uranium-238",                  amount =3 },
     },
-    result = "uranium-anti-material-rifle-magazine",
+    results = {{type = "item", name ="uranium-anti-material-rifle-magazine",amount =1}}
   },
 })
