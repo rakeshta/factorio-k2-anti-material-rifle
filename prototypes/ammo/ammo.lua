@@ -13,7 +13,7 @@ data:extend({
     name = "anti-material-rifle-magazine",
     icon = graphics_path .. "anti-material-rifle-ammo-1.png",
     icon_size = 64,
-    icon_mipmaps = 4,
+    ammo_category = "anti-material-rifle-ammo",
     pictures = {
       {
         size = 64,
@@ -60,7 +60,7 @@ data:extend({
     name = "armor-piercing-anti-material-rifle-magazine",
     icon = graphics_path .. "anti-material-rifle-ammo-2.png",
     icon_size = 64,
-    icon_mipmaps = 4,
+    ammo_category = "anti-material-rifle-ammo",
     pictures = {
       {
         size = 64,
@@ -106,7 +106,7 @@ data:extend({
     name = "uranium-anti-material-rifle-magazine",
     icon = graphics_path .. "anti-material-rifle-ammo-3.png",
     icon_size = 64,
-    icon_mipmaps = 4,
+    ammo_category = "anti-material-rifle-ammo",
     pictures = {
       {
         size = 64,
