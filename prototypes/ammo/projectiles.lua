@@ -12,6 +12,7 @@ data:extend({
     type = "projectile",
     name = "anti-material-rifle-ammo-1",
     flags = { "not-on-map" },
+    hidden = true,
     collision_box = bullets_collision_box,
     acceleration = -0.025,
     action = {
@@ -67,6 +68,7 @@ data:extend({
     type = "projectile",
     name = "anti-material-rifle-ammo-2",
     flags = { "not-on-map" },
+    hidden = true,
     collision_box = bullets_collision_box,
     acceleration = -0.025,
     action = {
@@ -123,6 +125,7 @@ data:extend({
     type = "projectile",
     name = "anti-material-rifle-ammo-3",
     flags = { "not-on-map" },
+    hidden = true,
     collision_box = bullets_collision_box,
     acceleration = -0.025,
     action = {
@@ -178,5 +181,4 @@ data:extend({
     force_condition = "not-same",
     light = { intensity = 0.45, size = 8, color = { r = 0.5, g = 1, b = 0.5 } },
   },
-
 })
