@@ -1,5 +1,5 @@
 --
---  expoosions.lua
+--  explosions.lua
 --  factorio-k2-anti-material-rifle
 --
 --  Created by Rakesh Ayyaswami on 17 Jan 2023.
@@ -10,6 +10,7 @@ data:extend({
     type = "explosion",
     name = "explosion-hit-p",
     flags = { "not-on-map" },
+    hidden = true,
     subgroup = "explosions",
     animations = {
       {
@@ -31,6 +32,7 @@ data:extend({
     type = "explosion",
     name = "explosion-hit-u",
     flags = { "not-on-map" },
+    hidden = true,
     subgroup = "explosions",
     animations = {
       {

@@ -12,5 +12,4 @@ technology_utils.addUnlockRecipe("military-2", "anti-material-rifle-magazine")
 
 technology_utils.addUnlockRecipe("military-3", "armor-piercing-anti-material-rifle-magazine")
 
-technology_utils.addUnlockRecipe("uranium-ammo", "uranium-rifle-magazine")
 technology_utils.addUnlockRecipe("uranium-ammo", "uranium-anti-material-rifle-magazine")
